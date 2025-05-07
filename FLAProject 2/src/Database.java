@@ -25,4 +25,8 @@ public class Database {
     public List<String> getOrders() {
         return orders;
     }
+
+    public void clearOrders() {
+        orders.clear();
+    }
 }
